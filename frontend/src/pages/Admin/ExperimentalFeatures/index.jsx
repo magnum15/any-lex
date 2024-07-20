@@ -157,13 +157,13 @@ function SelectedFeatureComponent({ feature, settings, refresh }) {
 
 function FeatureVerification({ children }) {
   if (
-    !window.localStorage.getItem("anythingllm_tos_experimental_feature_set")
+    !window.localStorage.getItem("LexBot_tos_experimental_feature_set")
   ) {
     function acceptTos(e) {
       e.preventDefault();
 
       window.localStorage.setItem(
-        "anythingllm_tos_experimental_feature_set",
+        "LexBot_tos_experimental_feature_set",
         "accepted"
       );
       showToast(
@@ -192,7 +192,7 @@ function FeatureVerification({ children }) {
               <div className="p-6 space-y-6 flex h-full w-full">
                 <div className="w-full flex flex-col gap-y-4 text-white">
                   <p>
-                    Experimental features of AnythingLLM are features that we
+                    Experimental features of LexBot are features that we
                     are piloting and are <b>opt-in</b>. We proactively will
                     condition or warn you on any potential concerns should any
                     exist prior to approval of any feature.
@@ -212,7 +212,7 @@ function FeatureVerification({ children }) {
                         Increased cost or use of any connected LLM or embedding
                         provider.
                       </li>
-                      <li>Potential bugs or issues using AnythingLLM.</li>
+                      <li>Potential bugs or issues using LexBot.</li>
                     </ul>
                   </div>
 
@@ -226,7 +226,7 @@ function FeatureVerification({ children }) {
                       <li>The feature being used is not currently stable.</li>
                       <li>
                         The feature may not be available in future versions,
-                        configurations, or subscriptions of AnythingLLM.
+                        configurations, or subscriptions of LexBot.
                       </li>
                       <li>
                         Your privacy settings <b>will be honored</b> with use of
@@ -240,17 +240,17 @@ function FeatureVerification({ children }) {
                     Access to any features requires approval of this modal. If
                     you would like to read more you can refer to{" "}
                     <a
-                      href="https://docs.useanything.com/beta-preview/overview"
+                      href="https://docs.lexbot.info/beta-preview/overview"
                       className="underline text-blue-500"
                     >
-                      docs.useanything.com
+                      docs.lexbot.info
                     </a>{" "}
                     or email{" "}
                     <a
-                      href="mailto:team@mintplexlabs.com"
+                      href="mailto:team@lexbot.info"
                       className="underline text-blue-500"
                     >
-                      team@mintplexlabs.com
+                      team@lexbot.info
                     </a>
                   </p>
                 </div>

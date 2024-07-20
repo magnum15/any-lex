@@ -28,18 +28,18 @@ export default function Sidebar() {
     <div>
       <Link
         to={paths.home()}
-        className="flex shrink-0 max-w-[55%] items-center justify-start mx-[38px] my-[18px]"
+        className="flex shrink-0 max-w-[45%] items-center justify-start mx-[38px] my-[18px]"
         aria-label="Home"
       >
         <img
           src={logo}
           alt="Logo"
-          className="rounded max-h-[24px] object-contain"
+          className="rounded max-h-[45px] object-contain"
         />
       </Link>
       <div
         ref={sidebarRef}
-        className="relative m-[16px] rounded-[16px] bg-sidebar border-2 border-outline min-w-[250px] p-[10px] h-[calc(100%-76px)]"
+        className="relative m-[16px] rounded-[6px] bg-sidebar border border-outline min-w-[250px] p-[10px] h-[calc(100%-84px)]"
       >
         <div className="flex flex-col h-full overflow-x-hidden">
           <div className="flex-grow flex flex-col min-w-[235px]">
