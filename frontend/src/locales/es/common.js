@@ -50,8 +50,8 @@ const TRANSLATIONS = {
       reset: "Restablecer",
     },
     "sign-in": {
-      start: "Iniciar sesión en tu",
-      end: "cuenta.",
+      start: "Iniciar sesión en tu cuenta",
+      end: ".",
     },
     "password-reset": {
       title: "Restablecer la contraseña",
@@ -65,24 +65,24 @@ const TRANSLATIONS = {
 
   welcomeMessage: {
     part1:
-      "Bienvenido a AnythingLLM, una herramienta de inteligencia artificial de código abierto creada por Mintplex Labs que convierte cualquier cosa en un chatbot entrenado con el que puedes consultar y conversar. AnythingLLM es un software BYOK (bring-your-own-keys), por lo que no hay suscripciones, tarifas ni cargos por este software, salvo por los servicios que deseas utilizar.",
+      "¡Bienvenido a LexBot! Estamos emocionados de tenerte aquí. LexBot es tu asistente legal de inteligencia artificial, diseñado para ayudarte en diversas tareas legales. ¡Explora la plataforma y descubre cómo podemos transformar tu práctica legal!",
     part2:
-      "AnythingLLM es la forma más sencilla de integrar productos de inteligencia artificial potentes como OpenAi, GPT-4, LangChain, PineconeDB, ChromaDB y otros servicios en un paquete ordenado, sin complicaciones, para aumentar tu productividad en un 100x.",
+      "LexBot está diseñado para mejorar tu eficiencia y precisión en el ámbito legal. Ofrecemos herramientas avanzadas para la redacción de documentos, análisis de sentencias y mucho más. Por ahora, la sección de chat está deshabilitada hasta que se complete el proceso de pago.",
     part3:
-      "AnythingLLM puede ejecutarse completamente en tu máquina local con poco impacto, ¡ni siquiera notarás que está ahí! No se necesita GPU. También está disponible la instalación en la nube y en instalaciones locales.\nEl ecosistema de herramientas de inteligencia artificial se vuelve más poderoso cada día. AnythingLLM facilita su uso.",
-    githubIssue: "Crear un problema en Github",
-    user1: "¿Cómo empiezo?!",
+      "Para habilitar la sección de chat, realiza el pago de tu suscripción mediante transferencia bancaria. Una vez recibido el pago, activaremos tu suscripción. Por favor, completa el formulario con la información de pago en el siguiente enlace. Gracias por tu paciencia.",
+    githubIssue: "Suscríbete Ahora!",
+    user1: "¿Cómo empiezo porque no puedo chatear?!",
     part4:
-      'Es simple. Todas las colecciones se organizan en contenedores que llamamos "Workspaces". Los Workspaces son contenedores de archivos, documentos, imágenes, PDFs y otros archivos que se transformarán en algo que los LLM puedan entender y usar en una conversación.\n\nPuedes agregar y eliminar archivos en cualquier momento.',
+      'La sección de chat está deshabilitada hasta que completes el proceso de pago. Realiza tu transferencia bancaria y completa el formulario con la información de pago para activar tu suscripción.',
     createWorkspace: "Crea tu primer workspace",
     user2:
-      "¿Es esto como un Dropbox de IA o algo así? ¿Qué hay de chatear? ¿Es un chatbot, no?",
+      "¿Esto se ve genial, Cómo me puede ayudar en mi práctica legal?",
     part5:
-      "AnythingLLM es más que un Dropbox más inteligente.\n\nAnythingLLM ofrece dos formas de interactuar con tus datos:\n\n<i>Consulta:</i> Tus chats devolverán datos o inferencias encontradas con los documentos en tu workspace al que tiene acceso. ¡Agregar más documentos al workspace lo hace más inteligente! \n\n<i>Conversacional:</i> Tus documentos y tu historial de chat en curso contribuyen al conocimiento del LLM al mismo tiempo. Ideal para agregar información en tiempo real basada en texto o correcciones y malentendidos que el LLM pueda tener.\n\n¡Puedes alternar entre ambos modos <i>en medio de una conversación!</i>",
+      "LexBot te ayuda automatizando tareas repetitivas, analizando grandes volúmenes de información y proporcionando asesoramiento legal preciso. Esto mejora tu eficiencia, reduce errores y te permite enfocarte en casos más complejos y estratégicos.",
     user3: "¡Vaya, esto suena increíble, déjame probarlo ya!",
-    part6: "¡Diviértete!",
-    starOnGithub: "Estrella en GitHub",
-    contact: "Contactar a Mintplex Labs",
+    part6: "¡Nos alegra que estés emocionado! Para habilitar todas las funciones, realiza tu pago mediante transferencia bancaria y completa el formulario con la información de pago en el siguiente enlace. Estamos ansiosos por ayudarte a mejorar tu práctica legal.",
+    starOnGithub: "Suscríbete Ahora!",
+    contact: "Contactar a Lexbot",
   },
 
   "new-workspace": {
@@ -114,7 +114,7 @@ const TRANSLATIONS = {
       add: "Agregar nuevo mensaje",
       save: "Guardar mensajes",
       heading: "Explícame",
-      body: "los beneficios de AnythingLLM",
+      body: "los beneficios de LexBot",
     },
     pfp: {
       title: "Imagen de perfil del asistente",
@@ -317,7 +317,7 @@ const TRANSLATIONS = {
       system: "sistema",
       user: "usuario",
       message: "mensaje",
-      assistant: "Asistente de chat AnythingLLM",
+      assistant: "Asistente de chat LexBot",
       "double-click": "Haz doble clic para editar...",
       save: "Guardar mensajes",
     },
@@ -333,7 +333,7 @@ const TRANSLATIONS = {
   api: {
     title: "Claves API",
     description:
-      "Las claves API permiten al titular acceder y gestionar programáticamente esta instancia de AnythingLLM.",
+      "Las claves API permiten al titular acceder y gestionar programáticamente esta instancia de LexBot.",
     link: "Leer la documentación de la API",
     generate: "Generar nueva clave API",
     table: {
@@ -346,7 +346,7 @@ const TRANSLATIONS = {
   llm: {
     title: "Preferencia de LLM",
     description:
-      "Estas son las credenciales y configuraciones para tu proveedor preferido de chat y incrustación de LLM. Es importante que estas claves estén actualizadas y correctas, de lo contrario AnythingLLM no funcionará correctamente.",
+      "Estas son las credenciales y configuraciones para tu proveedor preferido de chat y incrustación de LLM. Es importante que estas claves estén actualizadas y correctas, de lo contrario LexBot no funcionará correctamente.",
     provider: "Proveedor de LLM",
   },
 
@@ -356,7 +356,7 @@ const TRANSLATIONS = {
       "Estas son las credenciales y configuraciones para tu proveedor preferido de modelo de transcripción. Es importante que estas claves estén actualizadas y correctas, de lo contrario los archivos multimedia y de audio no se transcribirán.",
     provider: "Proveedor de transcripción",
     "warn-start":
-      "El uso del modelo local Whisper en máquinas con RAM o CPU limitadas puede bloquear AnythingLLM al procesar archivos multimedia.",
+      "El uso del modelo local Whisper en máquinas con RAM o CPU limitadas puede bloquear LexBot al procesar archivos multimedia.",
     "warn-recommend":
       "Recomendamos al menos 2GB de RAM y subir archivos <10Mb.",
     "warn-end":
@@ -368,11 +368,11 @@ const TRANSLATIONS = {
     "desc-start":
       "Cuando uses un LLM que no admita de forma nativa un motor de incrustación, es posible que necesites especificar credenciales adicionales para incrustar texto.",
     "desc-end":
-      "La incrustación es el proceso de convertir texto en vectores. Estas credenciales son necesarias para convertir tus archivos y prompts en un formato que AnythingLLM pueda usar para procesar.",
+      "La incrustación es el proceso de convertir texto en vectores. Estas credenciales son necesarias para convertir tus archivos y prompts en un formato que LexBot pueda usar para procesar.",
     provider: {
       title: "Proveedor de incrustación",
       description:
-        "No se requiere configuración cuando se utiliza el motor de incrustación nativo de AnythingLLM.",
+        "No se requiere configuración cuando se utiliza el motor de incrustación nativo de LexBot.",
     },
   },
 
@@ -402,7 +402,7 @@ const TRANSLATIONS = {
   vector: {
     title: "Base de datos de vectores",
     description:
-      "Estas son las credenciales y configuraciones para cómo funcionará tu instancia de AnythingLLM. Es importante que estas claves estén actualizadas y correctas.",
+      "Estas son las credenciales y configuraciones para cómo funcionará tu instancia de LexBot. Es importante que estas claves estén actualizadas y correctas.",
     provider: {
       title: "Proveedor de base de datos de vectores",
       description: "No se necesita configuración para LanceDB.",
@@ -449,7 +449,7 @@ const TRANSLATIONS = {
     password: {
       title: "Protección con contraseña",
       description:
-        "Protege tu instancia de AnythingLLM con una contraseña. Si olvidas esta contraseña, no hay método de recuperación, así que asegúrate de guardar esta contraseña.",
+        "Protege tu instancia de LexBot con una contraseña. Si olvidas esta contraseña, no hay método de recuperación, así que asegúrate de guardar esta contraseña.",
     },
     instance: {
       title: "Proteger instancia con contraseña",
@@ -474,7 +474,7 @@ const TRANSLATIONS = {
   privacy: {
     title: "Privacidad y manejo de datos",
     description:
-      "Esta es tu configuración para cómo los proveedores de terceros conectados y AnythingLLM manejan tus datos.",
+      "Esta es tu configuración para cómo los proveedores de terceros conectados y LexBot manejan tus datos.",
     llm: "Selección de LLM",
     embedding: "Preferencia de incrustación",
     vector: "Base de datos de vectores",

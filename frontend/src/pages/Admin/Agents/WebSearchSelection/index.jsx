@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import AnythingLLMIcon from "@/media/logo/anything-llm-icon.png";
+import LexBotIcon from "@/media/logo/lexbot-app-icon.webp";
 import GoogleSearchIcon from "./icons/google.png";
 import SerperDotDevIcon from "./icons/serper.png";
 import BingSearchIcon from "./icons/bing.png";
@@ -25,7 +25,7 @@ const SEARCH_PROVIDERS = [
   {
     name: "Please make a selection",
     value: "none",
-    logo: AnythingLLMIcon,
+    logo: LexBotIcon,
     options: () => <React.Fragment />,
     description:
       "Web search will be disabled until a provider and keys are provided.",

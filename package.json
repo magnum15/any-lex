@@ -27,5 +27,11 @@
     "generate::gcp_deployment": "node cloud-deployments/gcp/deployment/generate.mjs",
     "verify:translations": "cd frontend/src/locales && node verifyTranslations.mjs"
   },
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "prisma": "^5.17.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.17.0"
+  }
 }

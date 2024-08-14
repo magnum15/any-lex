@@ -55,9 +55,9 @@ export default function Footer() {
               target="_blank"
               rel="noreferrer"
               className="transition-all duration-300 p-2 rounded-full text-white bg-sidebar-button hover:bg-menu-item-selected-gradient hover:border-slate-100 hover:border-opacity-50 border-transparent border"
-              aria-label="Find us on Github"
+              aria-label="Suscríbirse"
               data-tooltip-id="open-github"
-              data-tooltip-content="View source code on Github"
+              data-tooltip-content="Suscríbirse"
             >
               <GithubLogo weight="fill" className="h-5 w-5 " />
             </a>
@@ -70,7 +70,7 @@ export default function Footer() {
               className="w-fit transition-all duration-300 p-2 rounded-full text-white bg-sidebar-button hover:bg-menu-item-selected-gradient hover:border-slate-100 hover:border-opacity-50 border-transparent border"
               aria-label="Docs"
               data-tooltip-id="open-documentation"
-              data-tooltip-content="Open AnythingLLM help docs"
+              data-tooltip-content="Open LexBot help docs"
             >
               <BookOpen weight="fill" className="h-5 w-5 " />
             </a>
@@ -83,7 +83,7 @@ export default function Footer() {
               className="transition-all duration-300 p-2 rounded-full text-white bg-sidebar-button hover:bg-menu-item-selected-gradient hover:border-slate-100 hover:border-opacity-50 border-transparent border"
               aria-label="Join our Discord server"
               data-tooltip-id="open-discord"
-              data-tooltip-content="Join the AnythingLLM Discord"
+              data-tooltip-content="Join the LexBot Discord"
             >
               <DiscordLogo
                 weight="fill"

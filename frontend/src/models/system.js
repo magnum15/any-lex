@@ -5,9 +5,9 @@ import LiveDocumentSync from "./experimental/liveSync";
 
 const System = {
   cacheKeys: {
-    footerIcons: "anythingllm_footer_links",
-    supportEmail: "anythingllm_support_email",
-    customAppName: "anythingllm_custom_app_name",
+    footerIcons: "LexBot_footer_links",
+    supportEmail: "LexBot_support_email",
+    customAppName: "LexBot_custom_app_name",
   },
   ping: async function () {
     return await fetch(`${API_BASE}/ping`)

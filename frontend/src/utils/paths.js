@@ -34,19 +34,19 @@ export default {
     },
   },
   github: () => {
-    return "https://github.com/Mintplex-Labs/anything-llm";
+    return "https://lexbot.info/registro";
   },
   discord: () => {
-    return "https://discord.com/invite/6UyHPeGZAC";
+    return "https://discord.com/";
   },
   docs: () => {
-    return "https://docs.anythingllm.com";
+    return "https://docs.lexbot.info";
   },
   mailToMintplex: () => {
-    return "mailto:team@mintplexlabs.com";
+    return "mailto:team@lexbot.info";
   },
   hosting: () => {
-    return "https://my.mintplexlabs.com/aio-checkout?product=anythingllm";
+    return "https://lexbot.info/checkout?product=LexBot";
   },
   workspace: {
     chat: (slug) => {

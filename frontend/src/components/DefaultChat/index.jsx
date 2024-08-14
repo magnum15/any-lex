@@ -28,7 +28,7 @@ export default function DefaultChatContainer() {
     showModal: showNewWsModal,
     hideModal: hideNewWsModal,
   } = useNewWorkspaceModal();
-  const popMsg = !window.localStorage.getItem("anythingllm_intro");
+  const popMsg = !window.localStorage.getItem("LexBot_intro");
   const { t } = useTranslation();
 
   useEffect(() => {
@@ -279,7 +279,7 @@ export default function DefaultChatContainer() {
 
   useEffect(() => {
     function processMsgs() {
-      if (!!window.localStorage.getItem("anythingllm_intro")) {
+      if (!!window.localStorage.getItem("LexBot_intro")) {
         setMockMessages([...MESSAGES]);
         return false;
       } else {
@@ -296,7 +296,7 @@ export default function DefaultChatContainer() {
         }, timer);
         timer += 2_500;
       });
-      window.localStorage.setItem("anythingllm_intro", 1);
+      window.localStorage.setItem("LexBot_intro", 1);
     }
 
     processMsgs();
@@ -305,7 +305,7 @@ export default function DefaultChatContainer() {
   return (
     <div
       style={{ height: isMobile ? "100%" : "calc(100% - 32px)" }}
-      className="transition-all duration-500 relative md:ml-[2px] md:mr-[16px] md:my-[16px] md:rounded-[16px] bg-main-gradient w-full h-full overflow-y-scroll border-2 border-outline"
+      className="transition-all duration-500 relative md:ml-[2px] md:mr-[16px] md:my-[16px] md:rounded-[6px] bg-main-gradient w-full h-full overflow-y-scroll border border-outline"
     >
       {isMobile && <SidebarMobileHeader />}
       {fetchedMessages.length === 0
